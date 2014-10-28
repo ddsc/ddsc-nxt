@@ -3,7 +3,7 @@ the "Fase 2" project.
 
 From dikedata_api, under http://api.ddsc.nl/api/v1/ :
 
-* users/?$  UserList
+* users/?$ UserList
 * users/(?P<pk>[0-9]+)/? UserDetail
 * groups/?$ UserGroupList
 * groups/(?P<pk>[0-9]+)/?$ UserGroupDetail
