@@ -32,3 +32,5 @@ uuid                --
 * DDSC's geometry_precision is unused.
 * DDSC's real_geometry is unused.
 * DDSC's relative_location is hardly used.
+* DDSC's point_geometry is a PointField (may have a z dimension).
+* NXT's geometry is a GeometryField.
