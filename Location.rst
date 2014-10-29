@@ -34,3 +34,4 @@ uuid                --
 * DDSC's relative_location is hardly used.
 * DDSC's point_geometry is a PointField (may have a z dimension).
 * NXT's geometry is a GeometryField.
+* DDSC has over 14000 locations (October 2014).
