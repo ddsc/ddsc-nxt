@@ -15,7 +15,7 @@ icon_url            --
 name                name
 *numchild*          --             django-treebeard
 --                  object         for generic relations
---                  *organisation*
+--                  *organisation* lizard-auth-client
 owner               --             resembles NXT's organisation?
 *path*              --             django-treebeard
 point_geometry      --             PointField, ETRS89
