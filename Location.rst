@@ -2,36 +2,30 @@
 Location
 ========
 
-==================  ==============
+==================  ============== =============================
 DDSC                NXT
-==================  ==============
+==================  ============== =============================
 --                  code
 created             *created*
-*depth*             --
+*depth*             --             django-treebeard
 description         --
---                  geometry
-geometry_precision  --
+--                  geometry       GeometryField, WGS84
+geometry_precision  --             not used
 icon_url            --
 name                name
-*numchild*          --
+*numchild*          --             django-treebeard
 --                  object
 --                  *organisation*
-owner               --
-*path*              --
-point_geometry      --
-real_geometry       --
-relative_location   --
+owner               --             resembles NXT's organisation?
+*path*              --             django-treebeard
+point_geometry      --             PointField, ETRS89
+real_geometry       --             not used
+relative_location   --             hardly used
 show_on_map         --
 uuid                --
-==================  ==============
+==================  ============== =============================
 
-* DDSC has nested Locations (via django-treebeard), NXT has not.
-* DDSC uses ETRS89 as a reference system, NXT WGS84.
-* In DDSC, Location has an unused m2m with LocationType.
-* DDSC's owner resembles NXT's organisation?
-* DDSC's geometry_precision is unused.
-* DDSC's real_geometry is unused.
-* DDSC's relative_location is hardly used.
-* DDSC's point_geometry is a PointField (may have a z dimension).
-* NXT's geometry is a GeometryField.
+* DDSC has nested Locations (materialized path via django-treebeard), NXT has not.
+* DDSC's Location has an unused m2m with LocationType.
+* DDSC's point_geometry may have a z dimension.
 * DDSC has over 14000 locations (October 2014).
