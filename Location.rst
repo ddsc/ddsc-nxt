@@ -14,7 +14,7 @@ geometry_precision  --             not used
 icon_url            --
 name                name
 *numchild*          --             django-treebeard
---                  object
+--                  object         for generic relations
 --                  *organisation*
 owner               --             resembles NXT's organisation?
 *path*              --             django-treebeard
