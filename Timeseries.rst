@@ -2,10 +2,10 @@
 Timeseries
 ==========
 
-====================== =====================
+====================== ===================== =============================
 DDSC                   NXT
-====================== =====================
---                     code
+====================== ===================== =============================
+--                     code                  unique per organisation
 compartment            --
 --                     created
 data_set               --
@@ -18,7 +18,7 @@ location               location
 measuring_device       --
 measuring_method       --
 name                   name
-owner                  --
+owner                  --                    resembles NXT's organisation?
 parameter              parameter
 processing_method      --
 reference_frame        --
@@ -33,4 +33,4 @@ validate_max_soft      --
 validate_min_hard      --
 validate_min_soft      --
 value_type             value_type
-====================== =====================
+====================== ===================== =============================
