@@ -5,7 +5,7 @@ Location
 ==================  ============== =============================
 DDSC                NXT
 ==================  ============== =============================
---                  code
+--                  code           unique per organisation
 created             *created*
 *depth*             --             django-treebeard
 description         --
